@@ -1,122 +1,419 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <header>
-        <a href="index.html">
-            <img src="" alt="logo" width="200" height="56">
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="">About Us</a>
-                </li>
-                <li>
-                    <a href="">Shop</a>
-                </li>
-                <li>
-                    <a href="">Pages</a>
-                </li>
-                <li>
-                    <a href="">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
-        <button type="button">basket</button>
+    <header class="header">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="./index.html" class="logo header__logo link" lang="en">
+                    <svg>
+                        <use href=""></use>
+                    </svg>
+                </a>
+                <a href="tel:+74993446091" class="contact__link link">
+                +7 (499) 344 60 91</a>
+
+                <button type="button">
+                    <svg>
+                        <use href=""></use>
+                    </svg>
+                </button>
+
+                <!-- моб меню -->
+
+            </nav>
+        </div>
     </header>
 
     <main>
-<!--Hero-->
-<section>
-<p>Made with nature</p>
-<h1>Welcome to the <br />
-    world of nature <br />
-    and organic.</h1>
-    <button type="button">Explore Now</button>
-</section>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">Профессиональная фотосессия в студии</h1>
+                <button type="button" class="btn hero__btn" aria-expanded="false" data-modal-open>Получить консультацию</button>
+            </div>
+        </section>
 
-<!--peculiarities-->
-<section>
-    <ul>
-        <li>
-            <p>Natural!!</p>
-            <h2>Get Garden <br />
-                Fresh Fruits</h2>
-        </li>
-        <li>
-            <p>Offer!!</p>
-            <h2>Get 10% off<br />
-                on Vegetables</h2>
-        </li>
-    </ul>
-</section>
+        <section class="projects">
+            <div class="container">
+                <h2 class="projects__title">
+                    Наши работы
+                </h2>
+                <ul class="projects__list list">
+                    <li class="projects__item">
+                        <img src="" alt="">
+                    </li>
+                    <li class="projects__item">
+                        <img src="" alt="">
+                    </li>
+                    <li class="projects__item">
+                        <img src="" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-<!--about us-->
-<section>
-    <img src="" alt="Fruits" width="675" height="642">
-    <p>About Us</p>
-    <h2>We Believe in Organic <br />
-        Foods For Strong Health</h2>
-        <p>Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles
-        of health, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition.</p>
-    <ul>
-        <li> 
-            <h3>Organic Foods Only</h3>
-        <p>The Product that you ordered will be verified that we have or not if have we will start to move on with the next step.</p>
-    </li>
-        <li>
-            <h3>Quality Standards</h3>
-            <p>Once your product is packed it will be delivered to your nearby locality you can directly visit the to buy the product.</p>
-        </li>
-    </ul>
-    <a href="">Shop Now</a>
-</section>
+        <section class="locations">
+            <div class="container">
+                <h2 class="locations__title">Наши локации</h2>
+                <ul class="locations__list list">
+                    <li class="locations__item">
+                        <img src="" alt="">
+                    </li>
+                    <li class="locations__item">
+                        <img src="" alt="">
+                    </li>
+                    <li class="locations__item">
+                        <img src="" alt="">
+                    </li>
+                </ul>
 
-<!--organic-->
-<section>
-<p>Organic</p>
-<h2>Our Products</h2>
-<ul>
-    <li>
-    <a href="">Vegetable</a>
-    <img src="" alt="Calabrese Broccoli" width="387" height="378">
-    <p>Calabrese Broccoli</p>
-</li>
-    <li>
-    <a href="">Vegetable</a>
-    <img src="" alt="Fresh Corn" width="387" height="378">
-    <p>Fresh Corn</p>
-</li>
-    <li>
-    <a href="">Millets</a>
-    <img src="" alt="Brown Hazelnut" width="387" height="378">
-    <p>Brown Hazelnut</p>
-</li>
-    <li>
-    <a href="">Millets</a>
-    <img src="" alt="Dried Pistachio" width="387" height="378">
-    <p>Dried Pistachio</p>
-</li>
-    <li>
-    <a href="">Vegetable</a>
-    <img src="" alt="Vegan Red Tomato" width="387" height="378">
-    <p>Vegan Red Tomato</p>
-</li>
-    <li>
-    <a href="">Fruits</a>
-    <img src="" alt="Organic Almonds" width="387" height="378">
-    <p>Organic Almonds</p>
-</li>
-</ul>
-</section>
+                <button type="button">выбрать локацию</button>
+            </div>
+        </section>
+
+        <!-- <section class="decor">
+            <div class="container">
+                <h2 class="decor__title">Оформление фотостудии</h2>
+            </div>
+        </section> -->
+
+        <section class="services">
+            <div class="container">
+                <h2 class="services__title">Виды услуг</h2>
+                <ul class="services__list list">
+                    <li class="services__item"></li>
+                    <li class="services__item"></li>
+                    <li class="services__item"></li>
+                    <li class="services__item"></li>
+                    <li class="services__item"></li>
+                    <li class="services__item"></li>
+                    <li class="services__item"></li>
+                    <li class="services__item"></li>
+                    <li class="services__item"></li>
+                    <li class="services__item"></li>
+                    <li class="services__item"></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="stages">
+            <div class="container">
+                <h2 class="stages__title">Этапы работ</h2>
+                <ul class="stages__list list">
+                    <li class="stages__item">
+                        <h3 class="stages__heading">Заявка
+                        </h3>
+                        <p class="stages__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких.</p>
+                    </li>
+                    <li class="stages__item">
+                        <h3 class="stages__heading">Бронь
+                        </h3>
+                        <p class="stages__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких.</p>
+                    </li>
+                    <li class="stages__item">
+                        <h3 class="stages__heading">Составление Технического задания
+                        </h3>
+                        <p class="stages__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких.</p>
+                    </li>
+                    <li class="stages__item">
+                        <h3 class="stages__heading">Съёмка
+                        </h3>
+                        <p class="stages__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких.</p>
+                    </li>
+                    <li class="stages__item">
+                        <h3 class="stages__heading">Готовые фото
+                        </h3>
+                        <p class="stages__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="description">
+            <div class="container">
+                <h2 class="description__title">Фотостудия для любых идейных фотоссесий</h2>
+                <p class="description__text">Воплотите мечту с нашей фотостудией и приобретите красивые, уникальные, качественные фотографии, выбрав один из наших
+                залов.
+                А их, -на секундочку, -аж семь штук.
+                Каждый наш зал оборудован интерьером и профессиональным оборудованием, и подойдет
+                для любой фотоссесии, а мы хотим рассказать
+                вам о все подробнее.
+                
+                Какие идеи можно воплотить?
+                
+                • Фотоссесия Love Story
+                
+                Мечтаете показать всему миру вашу историю создания любви или хранить...</p>
+
+                <button type="button">
+                    <svg>
+                        <use href=""></use>
+                    </svg>Подробнее</button>
+            </div>
+        </section>
+
+        <section class="price">
+            <div class="container">
+                <h2 class="price__title">Стоимость фотосесии</h2>
+                <ul class="price__list list">
+                    <li class="price__item">
+                        <div class="tariff__container">
+                            <h3 class="tariff__name">mini</h3>
+                            <p class="tariff__price">2500 ₽</p>
+                            <p class="tariff__option">/ 1 локация</p>
+                            <ul class="tariff-services__list list">
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Длительность — 30 минут</p>
+                                </li>
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Исходники — До 100 штук</p>
+                                </li>
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Ретушь — 4 фото</p>
+                                </li>
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Аренда фотостудии — Бесплатно</p>
+                                </li>
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Любой образ</p>
+                                </li>
+                            </ul>
+                            <ul class="add-services__list list">
+                                <h3 class="add-services__title">Дополнительные услуги</h3>
+                                <li class="add-services__list">
+                                    <p class="add-services__text">Помощь
+                                    в позировании</p>
+                                </li>
+                                <li class="add-services__list">
+                                    <p class="add-services__text">Визажист
+                                    + 2000 ₽</p>
+                                </li>
+                                <li class="add-services__list">
+                                    <p class="add-services__text">Дополнительная ретушь фото — 1 шт. / 250 ₽</p>
+                                </li>
+                            </ul>
+                            <button type="button">Забронировать</button>
+                        </div>
+                    </li>
+                    <li class="price__item">
+                        <div class="tariff__container">
+                            <h3 class="tariff__name">STANDART</h3>
+                            <p class="tariff__price">5000 ₽</p>
+                            <p class="tariff__option">/ 2 локации</p>
+                            <ul class="tariff-services__list list">
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Длительность — 1 час 20 минут</p>
+                                </li>
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Исходники — До 200 штук</p>
+                                </li>
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Ретушь — 8 фото</p>
+                                </li>
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Аренда фотостудии — Бесплатно</p>
+                                </li>
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Любой образ</p>
+                                </li>
+                            </ul>
+                            <ul class="add-services__list list">
+                                <h3 class="add-services__title">Дополнительные услуги</h3>
+                                <li class="add-services__list">
+                                    <p class="add-services__text">Помощь
+                                        в позировании</p>
+                                </li>
+                                <li class="add-services__list">
+                                    <p class="add-services__text">Визажист
+                                        + 2000 ₽</p>
+                                </li>
+                                <li class="add-services__list">
+                                    <p class="add-services__text">Дополнительная ретушь фото — 1 шт. / 250 ₽</p>
+                                </li>
+                            </ul>
+                            <button type="button">Забронировать</button>
+                        </div>
+                    </li>
+                    <li class="price__item">
+                        <div class="tariff__container">
+                            <h3 class="tariff__name">MAXI</h3>
+                            <p class="tariff__price">N ₽</p>
+                            <p class="tariff__option">/ Максимальное количество локаций</p>
+                            <ul class="tariff-services__list list">
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Длительность — 4 часа</p>
+                                </li>
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Исходники — До 500 штук</p>
+                                </li>
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Ретушь — 50 фото</p>
+                                </li>
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Аренда фотостудии — Бесплатно</p>
+                                </li>
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Визажист — Make-Up, Укладка</p>
+                                </li>
+                                <li class="tariff-services__item">
+                                    <p class="tariff-services__text">Предварительный подбор образов — До 8 образов</p>
+                                </li>
+                            </ul>
+                                <h3 class="add-services__title">Дополнительные услуги</h3>
+                                <p class="add-services__text">Дополнительная ретушь фото — 1 шт. / 250 ₽</p>
+                            <button type="button">Забронировать</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="description-bottom">
+            <div class="container">
+                <h2 class="description-bottom__title">Фотостудия для любых идейных фотоссесий</h2>
+                <p class="description-bottom__text">Мы искренни так считаем и готовы кричать эту фразу на весь мир. Фотографии давно перестали пылиться на полках в
+                семейных, потрёпанных альбомах.
+                
+                Хотите самовыразиться и не знаете как? Позвоните нам и закажите фотосъемку.
+                Хотите удивить и впечатлить? Мы вам поможем.
+                Не уверены? Посмотрите отзывы и проконсультируйтесь.
+                Боитесь фотографироваться? Наши локации помогут вам расслабиться и почувствовать себя как дома.
+                
+                Доступные цены для всех и вежливость...</p>
+        
+                <button type="button">
+                    <svg>
+                        <use href=""></use>
+                    </svg>Подробнее</button>
+            </div>
+        </section>
+
+        <section class="certificate">
+            <div class="container">
+                <h2 class="certificate__title">сертификат на фотоссесию</h2>
+                <p class="certificate__text">Это подарок,
+                который западает
+                в душу</p>
+                <ul class="benefits__list list">
+                    <li class="benefits__item">
+                        <p class="benefits__text">Креативное оформление</p>
+                    </li>
+                    <li class="benefits__item">
+                        <p class="benefits__text">Открытый календарь</p>
+                    </li>
+                    <li class="benefits__item">
+                        <p class="benefits__text">Всё включено</p>
+                    </li>
+                </ul>
+                <p class="certificate-validity__text">Срок действия сертификата: 2 месяца
+                со дня приобретения.</p>
+                <button type="button">Приобрести</button>
+            </div>
+        </section>
+
+        <section class="comments">
+            <div class="container">
+                <h2 class="comments__title">Отзывы</h2>
+                <ul class="comments__list list">
+                    <li class="comments__item">
+                        <div class="client__container">
+                            <img src="" alt="">
+                            <h3 class="client__title">Мария</h3>
+                            <p class="client__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких французских булок,
+                                да выпей чаю. Съешь еще
+                                этих мягких французских булок, да выпей чаю.</p>
+                            <a href="" class="client__link link">Показать ещё</a>
+                        </div>
+                    </li>
+                    <li class="comments__item">
+                        <div class="client__container">
+                            <img src="" alt="">
+                            <h3 class="client__title">Сергей</h3>
+                            <p class="client__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих мягких французских булок,
+                                да выпей чаю. Съешь еще
+                                этих мягких французских булок, да выпей чаю.</p>
+                            <a href="" class="client__link link">Показать ещё</a>
+                        </div>
+                    </li>
+                </ul>
+                <button type="button">Добавить отзыв</button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+            <a href="./index.html" class="logo footer__logo link" lang="en">
+                <svg>
+                    <use href=""></use>
+                </svg>
+            </a>
+            <ul class="site-nav__list list">
+                <li class="site-nav__item">
+                    <a href="" class="site-nav__link link">Портфолио</a>
+                </li>
+                <li class="site-nav__item">
+                    <a href="" class="site-nav__link link">Виды работ</a>
+                </li>
+                <li class="site-nav__item">
+                    <a href="" class="site-nav__link link">О фотостудии</a>
+                </li>
+                <li class="site-nav__item">
+                    <a href="" class="site-nav__link link">Услуги и цены</a>
+                </li>
+                <li class="site-nav__item">
+                    <a href="" class="site-nav__link link">Отзывы</a>
+                </li>
+                <li class="site-nav__item">
+                    <a href="" class="site-nav__link link">Контакты</a>
+                </li>
+            </ul>
+            <h2 class="footer-soc__title">Наши социцальные сети:</h2>
+            <ul class="footer-soc__list list">
+                <li class="footer-soc__item">
+                    <a href="" class="footer-soc__link link">
+                        <svg>
+                            <use href=""></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-soc__item">
+                    <a href="" class="footer-soc__link link">
+                        <svg>
+                            <use href=""></use>
+                        </svg>
+                    </a>
+                </li class="footer-soc__item">
+                <li>
+                    <a href="" class="footer-soc__link link">
+                        <svg>
+                            <use href=""></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer-soc__item">
+                    <a href="" class="footer-soc__link link">
+                        <svg>
+                            <use href=""></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </footer>
 
 
     </main>
