@@ -1,0 +1,64 @@
+.certificate__title {
+    margin-bottom: 40px;
+}
+
+.certificate__wrap {
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+    background-color: var(--secondary-bg-color);
+}
+
+.certificate__text {
+    margin-bottom: 8px;
+
+    @include font (12px, 500, 1.17, null);
+
+    color: var(--light-gray-color);
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.certificate__heading {
+    margin-bottom: 32px;
+}
+
+.benefits__list {
+    margin-bottom: 9px;
+}
+
+.benefits__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}
+
+.benefits__icon {
+    margin-bottom: 8px;
+
+}
+
+.benefits__text {
+    @include font (14px, 600, 1.43, null);
+}
+
+.certificate-validity__text {
+    margin-bottom: 16px;
+
+    @include font (14px, 500, 1.43, null);
+    
+    text-align: center;
+
+    color: var(--secondary-text-color);
+}
+
+.certificate__btn {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px 94px;
+} 

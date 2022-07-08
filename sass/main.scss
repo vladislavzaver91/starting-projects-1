@@ -1,3 +1,19 @@
+@import "./utils/variables";
 @import "./base/common";
+@import "./base/reset";
+@import "./utils/mixins";
 
-@import "./components/container"
+@import "./components/container";
+@import "./components/section";
+@import "./components/title";
+@import "./components/button";
+@import "./components/page-header";
+@import "./components/hero";
+@import "./components/projects";
+@import "./components/locations";
+@import "./components/decor";
+@import "./components/services";
+@import "./components/stages";
+@import "./components/description";
+@import "./components/price";
+@import "./components/certificate";

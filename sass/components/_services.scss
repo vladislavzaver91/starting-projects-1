@@ -1,0 +1,25 @@
+.services {
+    position: relative;
+}
+
+.services__title {
+    margin-bottom: 40px;
+}
+
+.services__list {
+}
+
+.services__item {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.services__text {
+    position: absolute;
+    left: 12px;
+    bottom: 8px;
+
+    @include font (14px, 600, 1.29, null);
+
+    color: var(--primary-white-color);
+}

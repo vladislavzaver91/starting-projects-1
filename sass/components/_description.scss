@@ -1,0 +1,46 @@
+.description__section {
+    padding-top: 50px;
+    padding-bottom: 36px;
+
+    background-color: var(--primary-bg-color);
+}
+
+.section--beige {
+    background-color: var(--secondary-bg-color);
+}
+
+.description__title {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.description__text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 16px;
+}
+
+.more__btn {
+    cursor: pointer;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: var(--accent-color);
+    text-transform: none;
+    @include font(14px, 600, 1.71, null);
+
+}
+
+.more__icon {
+    margin-left: 12px;
+    fill: transparent;
+}

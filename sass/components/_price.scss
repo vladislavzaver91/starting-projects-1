@@ -1,0 +1,129 @@
+.price__section {
+    margin-bottom: 60px;
+}
+
+.price__title {
+    margin-bottom: 40px;
+}
+
+.price__item {
+    &:not(:last-child) {
+        margin-bottom: 24px;
+    }
+    padding: 45px 12px;
+    background-color: var(--primary-bg-color);
+
+    border-radius: 16px;
+}
+
+.item--gray {
+    background-color: var(--primary-bg-color);
+}
+
+.item--beige {
+    background-color: var(--secondary-bg-color);
+}
+
+.item--pink {
+    background-color: var(--third-bg-color);
+}
+
+.tariff__name {
+    margin-bottom: 8px;
+
+    @include font(18px, 600, 1.22, null);
+    text-transform: uppercase;
+}
+
+.tariff__price {
+    @include font(56px, 700, 1.20, null);
+
+    color: var(--secondary-text-color);
+}
+
+.tariff-services__list {
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.tariff__option {
+    @include font(14px, 600, 1.43, null);
+
+    color: var(--secondary-gray-color);
+}
+
+.tariff-services__item {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}
+
+.tariff-services__icon {
+    margin-right: 8px;
+
+    fill: var(--primary-text-color);
+}
+
+.tariff-services__text {
+    color: var(--secondary-text-color);
+}
+
+.add-services__title {
+    margin-bottom: 12px;
+
+    @include font(14px, 600, 1.43, null);
+
+    color: var(--secondary-text-color);
+
+    text-align: center;
+}
+
+.add-services__wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add-services__item {
+    &:nth-child(1) {
+        margin-right: 5px;
+    }
+
+    &:nth-child(2) {
+        margin-bottom: 5px;
+    }
+}
+
+.add-services__btn {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 6px 8px;
+
+    height: 40px;
+    text-align: center;
+    @include font(12px, 500, 1.17, null);
+
+    background-color: var(--primary-white-color);
+
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+
+    &:active {
+        border-color: var(--accent-color);
+    }
+}
+
+.tariff-services__btn {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding: 20px 58px;
+}

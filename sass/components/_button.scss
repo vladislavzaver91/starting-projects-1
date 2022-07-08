@@ -1,0 +1,21 @@
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    @include font(14px, 600, 1.21, 3px);
+
+    color: var(--primary-white-color);
+    background: var(--gradient-bg-color);
+    transition: background 250ms var(--primary-cubic),
+    color 250ms var(--primary-cubic);
+
+    &:hover,
+    &:focus {
+        background: var(--hover-gradient-bg-color);
+    }
+
+    &:active {
+// анимация с уменьшением размера кнопки
+    }
+}
