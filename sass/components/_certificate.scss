@@ -4,9 +4,13 @@
 
 .certificate__wrap {
     padding-top: 40px;
+    padding-right: 9px;
     padding-bottom: 50px;
+    padding-left: 9px;
 
     background-color: var(--secondary-bg-color);
+
+    border-radius: 25px;
 }
 
 .certificate__text {

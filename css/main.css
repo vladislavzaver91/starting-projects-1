@@ -417,8 +417,11 @@ p {
 
 .certificate__wrap {
   padding-top: 40px;
+  padding-right: 9px;
   padding-bottom: 50px;
+  padding-left: 9px;
   background-color: var(--secondary-bg-color);
+  border-radius: 25px;
 }
 
 .certificate__text {
@@ -471,4 +474,108 @@ p {
   display: inline-block;
   margin: 0 auto;
   padding: 20px 94px;
+}
+
+.comments__title {
+  margin-bottom: 40px;
+}
+
+.client__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.client__photo {
+  width: 223px;
+  height: 244px;
+}
+
+.client__title {
+  margin-top: 24px;
+  margin-bottom: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+.client__text {
+  margin-bottom: 8px;
+  max-width: 340px;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+.client__link {
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.71;
+  color: var(--accent-color);
+}
+
+.comments__btn {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px 69px;
+}
+
+.footer__section {
+  padding-bottom: 60px;
+  background-color: var(--primary-bg-color);
+}
+.footer__section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo {
+  margin-bottom: 52px;
+}
+
+.site-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.site-nav__item:nth-child(-n+4) {
+  margin-bottom: 32px;
+}
+.site-nav__item:nth-child(1) {
+  margin-right: 56px;
+}
+.site-nav__item:nth-child(3) {
+  margin-right: 33px;
+}
+.site-nav__item:nth-child(5) {
+  margin-right: 83px;
+}
+
+.site-nav__link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.62;
+  color: var(--primary-text-color);
+}
+
+.footer-soc__title {
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 2;
+  color: var(--secondary-text-color);
+  text-align: center;
+}
+
+.footer-soc__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-soc__item:not(:last-child) {
+  margin-right: 24px;
 }/*# sourceMappingURL=main.css.map */
